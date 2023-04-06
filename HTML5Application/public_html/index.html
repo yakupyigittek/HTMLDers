@@ -1,11 +1,29 @@
 <!DOCTYPE html>
 <html>
-    <head>
+<head>
     <title>TODO supply a title</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            background-color: #a99898
+        }
+        
+        #baslik{
+            font-size: 50px;
+            color: #cccc00;
+            font-style: italic;
+            background-color: black;
+            text-align: center;
+            padding: 10px;
+            margin: 50px;
+            border: 10px solid #e56d5b;
+        }
+    </style>
 </head>
 <body>
+    <p id="baslik">İnönü Üniversitesi Yazılım Mühendisliği</p>
+    
     <div>İlgili içerikler buraya yazılır.</div>
     
     <p style="color: #0000ff" title="içerik bölümü">Bu kısım paragrafların tanımlandığı bölümüdür.</p>
@@ -18,7 +36,6 @@
     <h5 title="h5 etiketi">title</h5>
     <h6 title="h6 etiketi">title</h6>
     
-    <p style="font-size: 50px;color:#cccc00;font-style:italic;background-color:black;text-align:center">İnönü Üniversitesi Yazılım Mühendisliği</p>
     
     <!-- Link Etiketi -->
     <a href="https://www.w3schools.com/html/default.asp">Buraya</a>
@@ -72,5 +89,24 @@
             <td>19</td>
         </tr>
     </table>
+    
+    <!-- abbr tag -->
+    <p> <abbr title="Dünya Sağlık Örgütü">DSÖ</abbr>1948'de kurulmuştur.</p>
+    
+    <!-- cite tag -->
+    <p style="border:2px solid orange"><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
+    
+    <!-- Tersten Yazdır -->
+    <bdo dir="rtl">Bu metni tersten yazdır.</bdo><br><hr>
+    
+    <!-- address tag -->
+    <address>
+        Written by <a href="mailto:webmaster@example.com">Jon Doe</a>.<br> 
+        Visit us at:<br>
+        Example.com<br>
+        Box 564, Disneyland<br>
+        USA
+    </address>
+    
 </body>
 </html>
